@@ -5,7 +5,7 @@ Page({
     text: ''
   },
   onLoad() {
-    // 模拟请求比 delay 还快
+    // 模拟请求比骨架屏 delay 还快时，骨架屏异常
     setTimeout(() => {
       this.setData({
         loading: false,
